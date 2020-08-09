@@ -10,7 +10,19 @@ create table carrera (
 	constraint pk_cc primary key (clave_c)
 )
 
---drop table carrera
+insert into carrera values (1, 'Derecho',3)
+insert into carrera values (2, 'Diseño gráfico',2.5)
+insert into carrera values (3, 'Turismo',1)
+insert into carrera values (4, 'Redes y software',3)
+insert into carrera values (5, 'Comunicación',1.5)
+insert into carrera values (6, 'Historia del arte',2)
+insert into carrera values (7, 'Matemáticas',3)
+insert into carrera values (8, 'Sistemas computacionales',1.5)
+insert into carrera values (9, 'Lenguas',3)
+insert into carrera values (10, 'Física',4)
+
+select*from carrera
+select clave_c, nombre_c from carrera
 
 
 -- tabla materia
